@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+
+/* Global STARTS HERE*/
+
+.container{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.bt-1{
+    background-color: #e8491d;
+    color: #ffffff;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: none;
+    height: 38px;
+}
+
+.active{
+    color: #e8491d;
+    font-weight: 700;
+}
+
+.dark{
+    background-color: #35424a;
+    padding: 10px;
+    color: #ffffff;
+}
+
+/* ####### ///  GLOBAL ENDS HERE  /// ####### */
+
+
+
+
+header{
+    background-color: #35424a;
+    border-bottom: solid 3px#e8491d;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+header a:hover{
+    color: #e8491d;
+    transition: all 0.85s ease-in-out;
+}
+.logo{
+    float: left;
+}
+
+.logo h1{
+    margin: 0;
+    color: #ffffff;
+}
+
+.logo span{
+    color: #e8491d;
+}
+
+nav{
+    float: right;
+    margin-top: 10px;
+}
+
+nav li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+/*  showcase */
+
+.showcase{
+    background: url(./img/showcase.jpg) 0 -400px no-repeat;
+    min-height: 400px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.showcase h1{
+    font-size: 55px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.showcase p{
+    font-size: 20px;
+}
+
+/* NEWSLETTER */
+
+.newsletter{
+    background: #35424a;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.newsletter h2{
+    float: left;
+}
+
+.newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+
+.newsletter input[type='email']{
+    width: 250px;
+    height: 25px;
+    padding: 4px;
+}
+
+/* BOXES */
+
+.boxes{
+    margin-top: 20px;
+}
+
+.boxes .box{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+.boxes .box img{
+    width: 90px;
+}
+
+
+/* ###### ///  ABOUT PAGE  /// ####### */
+
+.content{
+    float: left;
+    width: 65%;
+
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#sidebar h2{
+    font-size: 18px;
+}
+
+/*  ###### ///   ABOUT PAGE ENDS HERE  /// ####### */
+
+/* ============================================= */
+
+/* ######/// SERVICES PAGE ######/// */
+
+.services ul{
+    float: left;
+    width: 65%;
+}
+
+.services ul li{
+    background-color: #e6e6e6;
+    margin-bottom: 5px;
+    border: 1px solid #cccccc;
+    list-style: none;
+    padding: 20px;
+}
+
+
+.services #sidebar{
+    float: right;
+    width: 30%;
+}
+
+.quote input[type="text"],.quote input[type="email"], .quote textarea{
+    width: 90%;
+    padding: 5px;
+}
+
+/* SERVICES PAGE ENDS HERE */
+
+/* ========================================== */
+
+/* ##########  FOOTER GOES HERE ######## */
+
+footer{
+    background-color: #e8491d;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* ##########  FOOTER ENDS HERE ######## */
