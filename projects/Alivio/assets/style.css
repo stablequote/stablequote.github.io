@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: georgia, 'lato', sans-serif;
+}
+
+
+
+/* GLOBAL STYLING */
+
+
+
+/* Typography */
+h1{
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.6rem;
+}
+
+
+
+
+/* Links */
+a{
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+    color: #292929;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+.container{
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.btn{
+    background: #01996D;
+    color: #fff;
+    border: 1px solid #01996D;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 1rem 3rem;
+    text-align: center;
+}
+/* //////////////////////// 
+          HEADER
+ ///////////////////////// */
+
+ .header-wrapper{
+     display: flex;
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+     align-items: center;
+ }
+
+
+header .logo{
+     margin-right: 10rem;
+ 
+}
+
+
+nav ul{
+    display: flex;
+    justify-items: center;
+}
+
+
+ nav ul li{
+     padding-right: 2.5rem;
+ }
+
+
+.login{
+    margin-left: 9rem;
+}
+
+.login a{
+    padding-right: 2rem;
+}
+
+
+/* HERO SECTION */
+
+.hero{
+    background: url('./img/BG.png') center top no-repeat;
+    height: 1184px;
+    max-width: 1920px;
+    
+}
+
+.headline{
+    width: 430px;
+    padding-top: 75px;
+}
+
+.headline h1{
+    line-height: 85px;
+    margin-bottom: 30px;
+    color: #01996D;
+}
+
+.headline p{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    color: #484848;
+    margin-bottom: 18px;
+}
+
+/* HOW IT WORKS SECTION */
+
+
+.how-works .container h4{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    color: #424242;
+    margin-bottom: 10px;
+}
+
+.how-works .brief h2{
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 157%;
+    color: #01996D;
+    display: inline-block;
+    width: 500px;
+    margin-right: 200px;
+}
+
+.how-works .brief p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+    display: inline-block;
+}
+
+.how-works .grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 70px;
+    justify-content: space-around;
+}
+
+.how-works .grid-item h2{
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(1, 153, 109, 0.2);{
+}
+
+.how-works .grid-item h3{
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.how-works .grid-item p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+    margin-bottom: 50px;
+}
+
+/* STORY SECTION */
+
+.brand{
+    background: #245852;
+    width: 100%;
+}
+
+.story .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+}
+
+.text{
+    float: left;
+}
+
+ .text h1{
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 157%;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.text p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+    color: #FFFFFF;
+    margin-bottom: 3.5rem;
+}
+
+.story img{
+    float: right;
+}
