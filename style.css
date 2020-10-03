@@ -213,7 +213,7 @@ p {
 #hero {
 	background-image: url(./img/portfolio-cover.jpg);
 	background-size: cover;
-	background-position: top center;
+	background-position: bottom center;
 	position: relative;
 	z-index: 1;
 }
